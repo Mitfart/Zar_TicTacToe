@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Btn" parent="Title">
+        <item name="android:background">@drawable/style_btn_bg</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/base</item>
+    </style>
+</resources>

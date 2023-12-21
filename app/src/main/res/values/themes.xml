@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Zar_TicTacToe" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/base</item>
+
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/primary_dark</item>
+        <item name="colorOnSecondary">@color/base</item>
+        <item name="chipSpacingVertical">@color/accent</item>
+
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/base</item>
+
+        <item name="android:statusBarColor">@color/primary</item>
+
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textColorHint">@color/text_second</item>
+
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+
+    <style name="Btn_Accent">
+        <item name="backgroundTint">@color/accent</item>
+    </style>
+
+    <style name="Text_Accent">
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+
+    <style name="Title">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="Subtitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:alpha">.75</item>
+    </style>
+
+
+    <style name="Body">
+        <item name="android:background">@color/base</item>
+        <item name="android:padding">24dp</item>
+    </style>
+</resources>
