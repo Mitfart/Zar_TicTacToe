@@ -117,21 +117,18 @@
                     android:id="@+id/checkBoxHorizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:button="@drawable/style_checkbox"
                     android:text="@string/rules_horizontal" />
 
                 <CheckBox
                     android:id="@+id/checkBoxVertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:button="@drawable/style_checkbox"
                     android:text="@string/rules_vertical" />
 
                 <CheckBox
                     android:id="@+id/checkBoxDiagonal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:button="@drawable/style_checkbox"
                     android:text="@string/rules_diagonal" />
 
             </LinearLayout>

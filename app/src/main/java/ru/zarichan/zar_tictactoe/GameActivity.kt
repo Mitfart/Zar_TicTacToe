@@ -115,6 +115,7 @@ class GameActivity : AppCompatActivity() {
     }
 
     // Метод onActivityResult вызывается после завершения работы другой активности
+    @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == POPUP_MENU) {
             if (resultCode == RESULT_OK) {
