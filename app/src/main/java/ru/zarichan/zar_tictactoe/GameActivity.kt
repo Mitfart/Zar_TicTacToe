@@ -30,6 +30,8 @@ class GameActivity : AppCompatActivity() {
 
         // Устанавливаем слушатели для различных элементов интерфейса
         binding.gameBtnExit.setOnClickListener {
+            val elapsedMillis = SystemClock.elapsedRealtime() - binding.gameTimer.base
+            saveGame(elapsedMillis, convertGameFieldToString())
             onBackPressed()
         }
 
@@ -628,6 +630,8 @@ class GameActivity : AppCompatActivity() {
         }
         dialog.findViewById<TextView>(R.id.dialog_settings).setOnClickListener {
             // При нажатии на "Настройки" переходим к активности настроек
+            val elapsedMillis = SystemClock.elapsedRealtime() - binding.gameTimer.base
+            saveGame(elapsedMillis, convertGameFieldToString())
             dialog.hide()
             val intent = Intent(this, SettingsActivity::class.java)
             startActivityForResult(intent, POPUP_MENU)
